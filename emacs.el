@@ -8,3 +8,6 @@
 (load "helpers")
 (load "modes")
 (load "theme")
+
+(vendor 'cheat)
+(vendor 'gist)
