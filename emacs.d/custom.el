@@ -12,3 +12,7 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  )
+
+;; for compatibility with older Aquamacs versions
+ (defvar aquamacs-140-custom-file-upgraded t)
+ (unless (fboundp 'auto-detect-longlines) (defun auto-detect-longlines () t))
