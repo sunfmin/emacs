@@ -5,6 +5,7 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  '(gud-gdb-command-name "gdb --annotate=1")
+ '(inhibit-startup-screen t)
  '(large-file-warning-threshold nil))
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
@@ -12,7 +13,3 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  )
-
-;; for compatibility with older Aquamacs versions
- (defvar aquamacs-140-custom-file-upgraded t)
- (unless (fboundp 'auto-detect-longlines) (defun auto-detect-longlines () t))
