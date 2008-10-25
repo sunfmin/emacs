@@ -4,3 +4,9 @@
 
 (setq js2-basic-offset 2)
 (setq js2-use-font-lock-faces t)
+(setq js2-cleanup-whitespace t)
+
+(add-hook 'js2-mode-hook
+		  '(lambda ()
+			 (setq indent-tabs-mode nil)
+			 (toggle-tab-highlight)))

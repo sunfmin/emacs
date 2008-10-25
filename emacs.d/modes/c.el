@@ -12,6 +12,5 @@
 			     scope-operator
 			     compact-empty-funcall)))
 
-
 (add-hook 'c-mode-common-hook '(lambda ()
 				 (c-toggle-auto-state 1)))
