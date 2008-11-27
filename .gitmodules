@@ -4,3 +4,6 @@
 [submodule "gist.el"]
 	path = emacs.d/vendor/gist.el
 	url = git://github.com/defunkt/gist.el.git
+[submodule "emacs.d/vendor/textmate.el"]
+	path = emacs.d/vendor/textmate.el
+	url = git://github.com/defunkt/textmate.el
