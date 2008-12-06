@@ -1,13 +1,15 @@
-(add-to-list 'load-path "~/.emacs.d")
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
 
-(load "global")
-(load "helpers")
-(load "modes")
-(load "theme")
+(load "~/.emacs.d/global")
+(load "~/.emacs.d/defuns")
+(load "~/.emacs.d/bindings")
+(load "~/.emacs.d/modes")
+(load "~/.emacs.d/theme")
+(load "~/.emacs.d/dired")
+(load "~/.emacs.d/shell")
 
 (vendor 'cheat)
 (vendor 'gist)
