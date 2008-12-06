@@ -9,4 +9,4 @@
 (add-hook 'js2-mode-hook
 		  '(lambda ()
 			 (setq indent-tabs-mode nil)
-			 (toggle-tab-highlight)))
+			 (show-ws-highlight-tabs)))
