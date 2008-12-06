@@ -1,4 +1,6 @@
 (load "modes/c")
-(load "modes/ruby")
 (load "modes/erlang")
+(load "modes/html")
 (load "modes/javascript")
+(load "modes/ruby")
+
