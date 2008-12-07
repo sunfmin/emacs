@@ -1,4 +1,5 @@
 ; general
+(global-set-key "\C-xg" 'magit-status)
 
 ; no mailing!
 (global-unset-key (kbd "C-x m"))

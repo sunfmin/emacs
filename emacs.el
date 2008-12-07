@@ -13,5 +13,6 @@
 
 (vendor 'cheat)
 (vendor 'gist)
+(vendor 'magit)
 (vendor 'textmate)
 (textmate-mode)
