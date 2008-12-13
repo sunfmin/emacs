@@ -3,8 +3,10 @@
 
 (require 'color-theme)
 (setq color-theme-is-global t)
-;(color-theme-dark-laptop)
-(color-theme-gtk-ide)
+
+(if window-system
+    (color-theme-gtk-ide)
+  (color-theme-dark-laptop))
 
 (setq mac-allow-anti-aliasing nil)
 
