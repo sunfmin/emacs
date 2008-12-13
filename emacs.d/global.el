@@ -4,8 +4,10 @@
 ; show column number
 (column-number-mode 1)
 
-; no auto-save files
+; disable auto-save files
 (setq make-backup-files nil)
+(setq auto-save-list-file-name nil)
+;(setq auto-save-default nil)
 
 ; no bell
 (setq ring-bell-function 'ignore)
