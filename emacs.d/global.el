@@ -18,5 +18,8 @@
 ; delete trailing whitespace before save
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
+; ensure last line is a return
+(setq require-final-newline t)
+
 ; set encoding
 (prefer-coding-system 'utf-8)
