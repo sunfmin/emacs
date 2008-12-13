@@ -1,6 +1,7 @@
 (load "~/.emacs.d/modes/c")
 (load "~/.emacs.d/modes/css")
 (load "~/.emacs.d/modes/diff")
+(load "~/.emacs.d/modes/dired")
 (load "~/.emacs.d/modes/erlang")
 (load "~/.emacs.d/modes/html")
 (load "~/.emacs.d/modes/javascript")

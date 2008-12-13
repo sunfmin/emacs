@@ -8,7 +8,6 @@
 (load "~/.emacs.d/bindings")
 (load "~/.emacs.d/modes")
 (load "~/.emacs.d/theme")
-(load "~/.emacs.d/dired")
 (load "~/.emacs.d/shell")
 
 (vendor 'cheat)
