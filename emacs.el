@@ -12,8 +12,8 @@
 (load "~/.emacs.d/shell")
 
 (vendor 'cheat)
+(vendor 'fuzzy-find-in-project)
 (vendor 'gist)
 (vendor 'magit)
-(vendor 'fuzzy-find-in-project)
 (vendor 'textmate)
 (textmate-mode)
