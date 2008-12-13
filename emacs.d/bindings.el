@@ -11,6 +11,9 @@
 ; unbind upcase
 (global-unset-key "\C-x\C-u")
 
+; no printing!
+(global-unset-key (kbd "s-p"))
+
 ; no mailing!
 (global-unset-key (kbd "C-x m"))
 
