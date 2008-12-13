@@ -14,5 +14,6 @@
 (vendor 'cheat)
 (vendor 'gist)
 (vendor 'magit)
+(vendor 'fuzzy-find-in-project)
 (vendor 'textmate)
 (textmate-mode)
