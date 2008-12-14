@@ -1,6 +1,9 @@
 [submodule "cheat.el"]
 	path = emacs.d/vendor/cheat.el
 	url = git://github.com/defunkt/cheat.el.git
+[submodule "far-search"]
+	path = emacs.d/vendor/far-search
+	url = git://github.com/aemoncannon/far-search-mode.git
 [submodule "fuzzy-find-in-project"]
 	path = emacs.d/vendor/fuzzy-find-in-project
 	url = git://github.com/avvo/fuzzy-find-in-project.git

@@ -11,6 +11,7 @@
 (load "~/.emacs.d/shell")
 
 (vendor 'cheat)
+(vendor 'far-search)
 (vendor 'fuzzy-find-in-project)
 (vendor 'gist)
 (vendor 'magit)
